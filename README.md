@@ -176,8 +176,8 @@ This is expected behavior if no student joins. The test will wait up to 3 minute
 optimize-case/
 ├── tests/
 │   └── teacher-workflow.spec.ts    # Main test file
-├── screenshots/                      # Test screenshots
-├── recordings/                       # Test videos
+├── screenshots/                      # Test screenshots (excluded from git)
+├── recordings/                       # Test videos (excluded from git)
 ├── playwright.config.ts             # Playwright configuration
 ├── package.json                     # Dependencies and scripts
 └── README.md                        # This file
