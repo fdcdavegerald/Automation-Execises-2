@@ -489,7 +489,7 @@ test.describe('Teacher Workflow Test - Cancel/Stay on Dialog', () => {
           console.error(`[TC${err.stepNumber}] ${err.message} (${err.timestamp.toISOString()})`);
         });
       } else {
-        console.log('\n=== ALL ASSERTIONS PASSED ===');
+        console.log('\n=== ALL ASSERTIONS PASSED ==='); //changes 
       }
     }
   });
