@@ -1,0 +1,19 @@
+{
+  "name": "optimize-case-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:teacher": "playwright test tests/teacher-workflow.spec.ts",
+    "test:headed": "playwright test tests/teacher-workflow.spec.ts --headed",
+    "test:debug": "playwright test tests/teacher-workflow.spec.ts --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.0"
+  }
+}
